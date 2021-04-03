@@ -22,6 +22,11 @@ p {
     justify-content: flex-end;
     margin-right: 15px;
 }
+#topMenu a p:hover{
+    font-weight: bold;
+    color:black;
+    text-decoration: underline;
+    }
 #topMenu p {
     padding: 10px;
     display: inline-block;
@@ -53,6 +58,11 @@ footer {
     display: inline-block;
     color: white;
 }
+#bottomMenu a p:hover{
+    font-weight: bold;
+    color:black;
+    text-decoration: underline;
+    }
 .content{
     width: 800px;
     margin: 0 auto;
@@ -199,13 +209,11 @@ section.mySkills {
     0% {
       transform: rotate(0deg);
     }
-    50% {
-      transform: rotate(360deg);
-    }
     100% {
       transform: rotate(720deg);
     }
   }
+  
   ul {
     padding: 0;
     margin: 50px 20px;
@@ -250,7 +258,7 @@ ul li:hover img {
     background-color: #d7d9e9;
     box-shadow: 10px 10px 10px rgb(90, 90, 90);
   }
-  
+
 @media only screen and (max-width: 600px) {
     .workGrid {
         width: 75%;
