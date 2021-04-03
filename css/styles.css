@@ -228,7 +228,8 @@ ul li img {
     width: 125px;
     height: 125px;
     display: block;
-    border-radius: 20px
+    border-radius: 20px;
+    transition: 0.3s;
 }
 ul li:hover img {
     transform: scale(2.5);
